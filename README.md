@@ -13,7 +13,6 @@ Recreating a fully functional stack using C++ from scratch that resembles the C+
 * size
 * top
 * push
-* emplace
 * pop
 * swap
 
