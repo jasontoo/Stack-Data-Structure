@@ -1,0 +1,45 @@
+QUEUE - FIRST in FIRST OUT
+
+PRE:
+
+Two indices:
+int front /* points to the front of the queue for the element to be removed */
+int rear /* points to the rear of the queue for the element to be added */
+
+Array[fixed size] /* Holds the data values for the queue */
+
+1. empty()
+
+	Function Prototype: bool empty()
+	Functionality: returns true if the queue is empty, false otherwise.
+
+2. size()
+
+	Function Prototype: int size()
+	Functionality: returns the size of the queue.
+
+3. peekFront()
+	
+	Function Prototype: int peekFront()
+	Functionality: returns the front element in the queue.
+
+4. peekRear()
+	
+	Function Prototype: int peekRear()
+	Functionality: returns the rear element in the queue.
+
+
+5. push()
+	
+	Function Prototype: void push()
+	Functionality: Checks if the queue is full, else adds an element to the rear of the queue.
+
+6. pop()
+	
+	Function Prototype: int pop()
+	Functionality: Checks if the queue is empty, else removes the front element in the queue and returns it.
+
+7. swap()
+
+	Function Prototype: void swap(queue)
+	Functionality: swaps between queues.
